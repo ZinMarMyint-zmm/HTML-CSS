@@ -1,0 +1,49 @@
+*{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.btn{
+    padding:10px 15px;
+    text-decoration: none;
+    border:2px solid lightskyblue;
+    font-size:15px;
+    display: inline-block;
+    transition: 0.5;
+}
+.btn-primary{
+    background-color: lightskyblue;
+    color:blanchedalmond;
+}
+.btn-primary:active{
+    background-color: #3d6279;
+    border-color:#3d6279;
+}
+.btn-secondary{
+    background-color: #5e3117;
+    color:blanchedalmond;
+    border:2px solid #5e3117;
+}
+.btn-secondary:active{
+    background-color: #a0552a;
+    border-color:#a0552a
+}
+.dark{
+    background-color: black;
+    color:blanchedalmond;
+    border:2px solid black;
+}
+.dark:active{
+    background-color: #333232;
+    border-color:#333232;
+}
+.btn-outline{
+    background-color: white;
+    border:2px solie lightskyblue;
+    color:lightskyblue;
+}
+.btn-outline:hover{
+    background-color: lightskyblue;
+    color:white;
+}
+.rounded{
+    border-radius:20px;
+}
