@@ -1,0 +1,38 @@
+
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:100%;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+th,td{
+    padding: 10px 15px;
+}
+.title span{
+    color:blue;
+}
+tbody tr:hover{
+    background-color:#b2b1b1;
+}
+thead{
+    background-color: blue;
+    color:white;
+}
+thead th{
+    text-align: center;
+}
+tbody tr td:first-child{
+    background-color: #3c3ce8;
+    color:white;
+}
+.text-right{
+    text-align: right;
+}
+.total{
+    text-align: center;
+    font-weight:bold;
+    background-color: white !important;
+    color:black !important;
+}

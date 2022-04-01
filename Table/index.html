@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="title">Table <span>CSS</span></h3>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Course</th>
+                <th>Fee</th>
+                <th>Discount</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>BWD(Basic Web Design)</td>
+                <td class="text-right">20000</td>
+                <td class="text-right">100%</td>
+                <td class="text-right">0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SWD(Special Web Design)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">80%</td>
+                <td class="text-right">20000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Web Dev(Web Development)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">50%</td>
+                <td class="text-right">50000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Laravel(Laravel Framework)</td>
+                <td class="text-right">100000</td>
+                <td class="text-right">50%</td>
+                <td class="text-right">50000</td>
+            </tr>
+            <tr>
+                <td class="total" colspan="4">Total</td>
+                <td class="text-right">120000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
