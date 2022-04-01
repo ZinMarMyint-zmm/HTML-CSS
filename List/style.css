@@ -1,0 +1,42 @@
+*{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.list-one{
+    list-style-type: square;
+}
+.list-two{
+    border:1px solid black;
+    padding:10px 15px;
+    list-style-type: none;
+    text-align: center;
+}
+.list-two li{
+    border:1px solid black;
+    padding:0 10px;
+    margin-bottom:5px;
+    display: inline;
+    transition: 0.5s;
+}
+.list-two li:last-child{
+    margin-bottom: 0px;
+}
+.list-two li:hover,.list-two li.active{
+    background-color: black;
+    color:white;
+}
+.list-three{
+    padding: 0;
+    list-style-type: none;
+}
+.list-three li{
+    background-color: #cbcbcb;
+    padding:10px 15px;
+    margin-bottom: 5px;
+    width:200px;
+    border-left: 2px solid black;
+    transition:0.3s;
+    box-sizing: border-box;
+}
+.list-three li:hover,.list-three li.active{
+    border-left: 7px solid black;
+}
