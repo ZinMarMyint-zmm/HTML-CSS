@@ -1,0 +1,55 @@
+*{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color:#dddcdc;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: rgba(208, 80, 33, 0.873);
+}
+.login-form{
+    width:200px;
+    height:300px;
+    padding:20px 30px;
+    border-radius: 10px;
+    /* margin:200px auto; */
+}
+.login-form legend{
+    font-size:20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-input{
+    margin-bottom: 30px;
+}
+.form-input label{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-input input{
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+    padding:3px;
+    border:1px solid black;
+    background-color: rgb(255, 250, 240);
+}
+.btn{
+    width:12px 6px;
+    background-color: #5c4e4e;
+    color:rgb(196, 193, 193);
+    border-radius: 3px;
+    border:1px solid black;
+    margin-right: 20px;
+}
+.text-light{
+    color:white;
+}
+form{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
